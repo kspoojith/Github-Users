@@ -1,70 +1,94 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# ⚡ GitHub User Dashboard
 
-## Available Scripts
+A sleek and interactive dashboard that visualizes any GitHub user's public profile — built using **React**, **GitHub API**, and **FusionCharts**. Enter a GitHub username and explore their top repositories, contribution calendar, and key stats in real-time.
 
-In the project directory, you can run:
+🔗 [Live Demo on Vercel](https://your-vercel-link.vercel.app)  
+📦 Tech Stack: React.js, Axios, Chart.js, FusionCharts, GitHub API
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ✨ Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 🔍 **Real-Time User Search** — Enter any GitHub username and fetch live data.
+- 📊 **Top Repositories** — Lists top public repos sorted by stars and forks.
+- 📆 **Contribution Calendar** — Visualizes daily contributions using FusionCharts.
+- 🚫 **Error Handling** — Handles 404 errors and invalid usernames gracefully.
+- 🎨 **Clean UI** — Minimalistic responsive layout with customized scrollbars.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📸 Demo Preview
 
-### `npm run build`
+![Dashboard Preview](./public/preview.png)  
+_Real-time GitHub data visualized with clean UI_
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 1. Clone the Repo
 
-### `npm run eject`
+```bash
+git clone https://github.com/your-username/github-user-dashboard.git
+cd github-user-dashboard
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 2. Install Dependencies
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 3. Start the Dev Server
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm run dev
+```
 
-## Learn More
+> ⚠️ No API key required — uses GitHub’s free public API (rate-limited).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🧠 What I Learned
 
-### Code Splitting
+- Integrating third-party APIs (GitHub)
+- Parsing and visualizing real-time user data
+- Debugging API calls and improving user experience
+- Handling edge cases like missing usernames, broken responses
+- Building charts and contribution maps
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 🛠️ Tools Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+| Tool           | Purpose                    |
+|----------------|----------------------------|
+| React.js       | Frontend Framework         |
+| Axios          | API Requests               |
+| FusionCharts   | Contribution Calendar      |
+| Chart.js       | Data Visualization         |
+| GitHub API     | Public user data           |
+| Vercel         | Deployment Platform        |
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 💡 Possible Improvements
 
-### Advanced Configuration
+- GitHub OAuth login to show authenticated user data
+- Theme toggle (light/dark mode)
+- Export profile as PDF
+- Search history and caching
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 📬 Feedback & Suggestions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Feel free to fork, star ⭐, and raise issues or suggestions.  
+Reach out to me on [LinkedIn](https://linkedin.com/in/your-profile) or via [email](mailto:you@example.com).
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📄 License
+
+MIT License
