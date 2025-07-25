@@ -3,7 +3,7 @@
 
 A sleek and interactive dashboard that visualizes any GitHub user's public profile — built using **React**, **GitHub API**, and **FusionCharts**. Enter a GitHub username and explore their top repositories, contribution calendar, and key stats in real-time.
 
-🔗 [Live Demo on Vercel](https://your-vercel-link.vercel.app)  
+🔗 [Live Demo on Vercel](https://github-users-peach-nine.vercel.app/)  
 📦 Tech Stack: React.js, Axios, Chart.js, FusionCharts, GitHub API
 
 ---
@@ -85,7 +85,7 @@ npm run dev
 ## 📬 Feedback & Suggestions
 
 Feel free to fork, star ⭐, and raise issues or suggestions.  
-Reach out to me on [LinkedIn](https://linkedin.com/in/your-profile) or via [email](mailto:you@example.com).
+Reach out to me on [LinkedIn](https://linkedin.com/in/poojithk) or via [email](mailto:suryapoojith9805@gmail.com).
 
 ---
 
